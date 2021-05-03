@@ -1,5 +1,6 @@
 ---
 title: "Test"
+date: "`r Sys.time()`"
 output: html_document
 ---
 
