@@ -39,7 +39,7 @@ jobs:
 
       - name: Render index.Rmd
         run: |
-          Rscript -e 'rmarkdown::render("index.Rmd")'
+          Rscript -e 'Sys.setenv(TZ='America/Los_Angeles'); rmarkdown::render("index.Rmd")'
 
       - name: Commit changes
         run: |

@@ -1,6 +1,6 @@
 ---
 title: "Github Action Demo"
-date:  "`r as.POSIXct(format(Sys.time()), tz='America/Los_Angeles')` PDT"
+date:  "`r Sys.time()` PDT"
 output: html_document
 ---
 
@@ -28,7 +28,7 @@ series  <- list(
 
 # get data ----
 x <- getEIA(series$id, api_key)
-tzone(x) <- "America/Los_Angeles"
+tzone(x) <- Sys.getenv("TZ")
 y <- last(x, "7 days")
 
 # plot data ----
