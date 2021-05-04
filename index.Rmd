@@ -34,3 +34,5 @@ y <- last(x, "7 days")
 # plot data ----
 dygraph(y, ylab = series$units, main = series$name)
 ```
+
+Source: [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/qb.php?category=3389873&sdid=EBA.CAL-ALL.NG.SUN.H).
