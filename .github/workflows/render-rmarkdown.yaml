@@ -2,7 +2,8 @@ name: render-Rmd
 
 on:
   schedule:
-    - cron: "* * * * *"
+    # daily, see https://crontab.guru/every-day
+    - cron: "0 0 * * *"
   push:
     paths:
       - '**.Rmd'
