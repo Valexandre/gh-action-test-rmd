@@ -1,6 +1,7 @@
 ---
 title: "Test"
-output: html_document
+html_document:
+  self_contained: false
 ---
 
 ```{r setup, include=FALSE}
