@@ -6,7 +6,7 @@ on:
       - '**.Rmd'
   workflow_dispatch:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   build:
