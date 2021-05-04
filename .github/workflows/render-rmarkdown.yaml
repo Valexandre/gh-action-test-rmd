@@ -2,11 +2,8 @@ name: render-Rmd
 
 on:
   schedule:
-    # daily, see https://crontab.guru/every-hour
     - cron: "0 * * * *"
   push:
-    paths:
-      - '**.Rmd'
   workflow_dispatch:
 
 jobs:
