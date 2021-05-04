@@ -1,3 +1,5 @@
+[![render-Rmd](https://github.com/bbest/gh-action-test-rmd/actions/workflows/render-rmarkdown.yaml/badge.svg)](https://github.com/bbest/gh-action-test-rmd/actions/workflows/render-rmarkdown.yaml)
+
 # gh-action-test-rmd
 Test Github Action with an Rmarkdown file
 
