@@ -1,7 +1,8 @@
 name: render-Rmd
 on:
-  schedule:
-    - cron: '0 * * * *'
+  # @bbest deactivated 2021-05-10
+  #schedule:
+  #  - cron: '0 * * * *'
   push:
   workflow_dispatch:
 
